@@ -1,0 +1,11 @@
+[package]
+name = "hello_word"
+version = "0.0.1"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/testnet" }
+
+[addresses]
+hello_word = "0x0"
+
+sui = "0xa60168aeff50181532eb335246022fb951554ba85c4af2f5cfeb5137c2886a57"
