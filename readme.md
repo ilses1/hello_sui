@@ -24,6 +24,10 @@ sui keytool import "<助记词>" ed25519
 
 添加新的网络别名: sui client new-env --alias <ALIAS> --rpc <RPC>
 
+添加主网和测试网：
+sui client new-env --alias testnet --rpc https://fullnode.testnet.sui.io:443
+sui client new-env --alias mainnet --rpc https://sui-mainnet.nodeinfra.com:443
+
 切换网络: sui client switch --env [network alias]
 
 
